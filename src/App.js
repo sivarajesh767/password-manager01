@@ -129,7 +129,7 @@ class App extends Component {
                 value={password}
               />
             </div>
-            <button type="button" className="add-button">
+            <button type="submit" className="add-button">
               Add
             </button>
           </form>
