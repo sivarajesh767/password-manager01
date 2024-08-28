@@ -162,7 +162,7 @@ class App extends Component {
               onChange={this.showPassword}
               className="check-box"
             />
-            <label className="label-password">Show Password</label>
+            <label htmlFor="check" className="label-password">Show Password</label>
           </div>
           {isTrue && (
             <div className="empty-state">
