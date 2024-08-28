@@ -30,7 +30,7 @@ class App extends Component {
     const caseOf=newList.length !== 0
     this.setState({latestList:newList, isTrue:caseOf})
   }
-  showPassword=()=>{
+  showPassword=(e)=>{
     if (e.target.checked){
         this.setState({isShow:true})
     }else{
