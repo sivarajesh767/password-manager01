@@ -158,6 +158,7 @@ class App extends Component {
           <div className="show-password">
             <input
               type="checkbox"
+              id="check"
               onChange={this.showPassword}
               className="check-box"
             />
