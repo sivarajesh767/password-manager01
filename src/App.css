@@ -1,0 +1,189 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.bg-co {
+  background-image: linear-gradient(to bottom, #7683cb, #c3caea);
+  height: 130vh;
+  padding: 2px;
+}
+.app-logo {
+  height: 40px;
+  width: 120px;
+  margin-top: 12px;
+  margin-left: 12px;
+  margin-right: 12px;
+  margin-bottom: 12px;
+}
+.sub-div-1 {
+  height: 400px;
+  width: 800px;
+  background-color: #5763a5;
+  margin-top: 12px;
+  margin-left: 12px;
+  margin-right: 12px;
+  margin-bottom: 12px;
+  display: flex;
+  flex-direction: row;
+}
+.add-details {
+  height: 350px;
+  width: 500px;
+  background-color: #454f84;
+  padding: 10px;
+  margin-top: 12px;
+  margin-left: 12px;
+  margin-right: 12px;
+  margin-bottom: 12px;
+  border: 7px;
+}
+.password-manager {
+  height: 190px;
+  width: 300px;
+}
+.heading-1 {
+  color: #ffff;
+  font-family: 'Roboto';
+  font-size: 28px;
+  font-weight: 700;
+  margin-top: 12px;
+  margin-left: 12px;
+  margin-bottom: 12px;
+  margin-right: 12px;
+}
+.input-holder {
+  height: 50px;
+  width: 80px;
+  background-color: #ffff;
+  display: flex;
+  flex-direction: row;
+  margin-top: 12px;
+  margin-left: 12px;
+  margin-bottom: 12px;
+  margin-right: 12px;
+}
+.website-img {
+  height: 43px;
+  width: 90px;
+}
+.type-website {
+  height: 50px;
+  width: 180px;
+}
+.username-img {
+  height: 43px;
+  width: 90px;
+}
+.type-username {
+  height: 50px;
+  width: 180px;
+}
+.password-img {
+  height: 43px;
+  width: 90px;
+}
+.type-password {
+  height: 50px;
+  width: 180px;
+}
+.add-button {
+  margin-top: 12px;
+  margin-left: 12px;
+  margin-bottom: 12px;
+  margin-right: 12px;
+  height: 45px;
+  width: 150px;
+  background-color: #0b69ff;
+  color: #ffff;
+  font-family: 'Roboto';
+  font-size: 16px;
+}
+.sub-div2 {
+  height: 400px;
+  width: 800px;
+  background-color: #5763a5;
+  margin-top: 12px;
+  margin-left: 12px;
+  margin-right: 12px;
+  margin-bottom: 12px;
+  display: flex;
+  flex-direction: column;
+}
+.first-div {
+  margin-top: 12px;
+  margin-bottom: 12px;
+  margin-left: 12px;
+  margin-right: 12px;
+}
+.your-password {
+  display: flex;
+  flex-direction: row;
+}
+.heading-2 {
+  font-size: 22px;
+  font-family: 'Roboto';
+  font-weight: 700;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  margin-left: 12px;
+  margin-right: 12px;
+  color: #c3caea;
+}
+.colored-text {
+  height: 30px;
+  width: 30px;
+  border-radius: 15px;
+  border: 1px solid #fff;
+  font-size: 18px;
+  font-weight: 700;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  margin-left: 12px;
+  color: #fff;
+  margin-right: 12px;
+}
+.search-holder {
+  height: 28px;
+  width: 190px;
+  background-color: #fff;
+  display: flex;
+  justify-content: flex-start;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  margin-left: 12px;
+}
+.show-password {
+  margin-top: 12px;
+  margin-bottom: 12px;
+  margin-left: 12px;
+  margin-right: 12px;
+  font-size: 22px;
+  color: #fff;
+  font-weight: 700;
+}
+.check-box {
+  height: 22px;
+  width: 30px;
+}
+.empty-img {
+  height: 200px;
+  width: 310px;
+}
+.noPassword-img {
+  height: 100px;
+  width: 300px;
+}
+.no-password{
+  font-size:23px;
+  font-family:"Roboto";
+  font-weight:600;
+}
