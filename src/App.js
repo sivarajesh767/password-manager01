@@ -67,9 +67,9 @@ class App extends Component {
       eachValue.websiteName.toLowerCase().include(searchInput.toLowerCase()),
     )
     if (newList.length===0){
-      return isTrue=false
+       isTrue=false
     }else{
-      return isTrue=true
+       isTrue=true
     }
 
     return (
