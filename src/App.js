@@ -64,7 +64,7 @@ class App extends Component {
       this.state
     let {isTrue} = this.state
     const newList = latestList.filter(eachValue =>
-      eachValue.websiteName.toLowerCase().include(searchInput.toLowerCase()),
+      eachValue.websiteName.toLowerCase().includes(searchInput.toLowerCase()),
     )
     if (newList.length===0){
        isTrue=false
